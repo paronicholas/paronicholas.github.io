@@ -1,7 +1,7 @@
 ## Professional Self-Assessment
 
 ## Informal Code Review
-[![informal code review video link]()](https://youtu.be/o1_J0Hd11ak)
+[![informal code review video link](./informal_code_review_image.png)](https://youtu.be/o1_J0Hd11ak)
 
 ## Artifacts
 ### Software Engineering and Design
