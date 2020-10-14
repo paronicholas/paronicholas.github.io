@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Professional Self-Assessment
 
-You can use the [editor on GitHub](https://github.com/paronicholas/paronicholas.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Informal Code Review
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Artifacts
+### Software Engineering and Design
+For this artifact I have chosen the [Zoo Monitoring Command Line Interface (CLI)](https://github.com/paronicholas/ZooMonitorSystem), a Java based application, which I first developed in the IT 145: Foundations in Application Development course at Southern New Hampshire Univeristy. I chose this application because it provided the best opportunity for improvement within a completed application and offered a change for me to showcase areas of growth with regards to my utilization and understanding of software engineering and design principles. For this portion of improvements, I focused on re-designing the structure of the application to better follow object-oriented design principles and class based structures. The re-design also incorperated my learning of test-driven development and secure coding principles.
 
-### Markdown
+One of the major improvements of the application was in the design of the application. Below is the improvement to the overall class structure:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+####Initial Application Structure
+````
+src/main/java
+ |
+ |- Main.java
+ |- Menus.java
+ |- Monitors.java
+ |- Parsers.java
+ |- animals.txt
+ |- habitats.txt
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+####Re-designed Application Structure
+```
+src
+ |- main/java
+ |-|
+   |-
+ |- test/java/helper
+```
 
-### Jekyll Themes
+### Data Structures and Algorithms
+For this artifact I have chosen the [Zoo Monitoring Command Line Interface (CLI)](https://github.com/paronicholas/ZooMonitorSystem), a Java based application, which I first developed in the IT 145: Foundations in Application Development course at Southern New Hampshire Univeristy.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/paronicholas/paronicholas.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Database
