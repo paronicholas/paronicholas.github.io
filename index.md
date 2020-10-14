@@ -24,9 +24,26 @@ src/main/java
 ```
 src
  |- main/java
- |-|
-   |-
- |- test/java/helper
+  |- helper
+   |- MonitorSystemOutputStatic.java
+   |- Parse.java
+  |- menu
+   |- MainMenu.java
+   |- Menu.java
+   |- MonitorMenu.java
+  |- monitor
+   |- Animal.java
+   |- Habitat.java
+  |- system
+   |- MainSystem.java
+   |- MonitorSystem.java
+  |- text
+   |- animals.txt
+   |- habitats.txt
+  |- Main.java
+ |- test/java
+  |- helper
+   |- ParseTest.java
 ```
 
 ### Data Structures and Algorithms
