@@ -9,7 +9,7 @@ For this artifact I have chosen the [Zoo Monitoring Command Line Interface (CLI)
 One of the major improvements of the application was in the design of the application. Below is the improvement to the overall class structure:
 
 ####Initial Application Structure
-````
+```
 src/main/java
  |
  |- Main.java
