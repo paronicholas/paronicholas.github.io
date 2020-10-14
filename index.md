@@ -1,5 +1,4 @@
 <a name=toc></a>
-
 ## Table of Contents
 * [Professional Self-Assessment](#psa)
 * [Informal Code Review](#icr)
@@ -8,23 +7,18 @@
   * [Database](#db)
 
 <a name=psa></a>
-
 ## Professional Self-Assessment
 
 [[Return to Top]](#toc)
 
 <a name=icr></a>
-
 ## Informal Code Review
 [![informal code review video link](./informal_code_review_image.png)](https://youtu.be/o1_J0Hd11ak)
 [[Return to Top]](#toc)
 
 <a name=artifacts></a>
-
 ## Artifacts
-
 <a name=seddsa></a>
-
 ### Software Engineering, Design, Data Structures, and Algorithms
 For this artifact I have chosen the [Zoo Monitoring Command Line Interface (CLI)](https://github.com/paronicholas/ZooMonitorSystem), a Java based application, which I first developed in the IT 145: Foundations in Application Development course. This application allows a user to monitor different aspects of the zoo – either the animals or the habitats – and provides information about the different aspects being viewed. Within those aspects the user can see if there are any areas of alert for the animals or habitats – either missing fields or areas of concern. This application reads information about the animals or habitats from text files containing a title section, which helps to populate the individual monitoring menus and information about each animal or habitat.
 
@@ -118,7 +112,6 @@ As I was going through this process, I realized that the initial feature was a g
 [[Return to Top]](#toc)
 
 <a name=db></a>
-
 ### Database
 For this artifact I chose the [Mobile2App Weight Tracker Android app](https://github.com/paronicholas/WeightTracker), a Android/Java based application, which I first developed in the CS 360: Mobile Architect and Programming course. This application is a simple weight tracking phone app which allows a user to create an account or log in, add a target weight, add daily weight records, and view the logged weights in a logbook. I have chosen the Weight Tracker Android phone application because it is one of the only applications I developed while at SNHU that contains a database, and other applications I have created using databases all contain no-SQL databases, such as AWS DynamoDB and already follow best practices for structure and implementation. I felt that the use of the SQL database for the Weight Tracker was a good starting point and required the most improvement in order to get the system working. This component will be used to showcase my ability to create and access a database for a mobile application, which is not an area I have showcased in previous work on my GitHub page. This is my first non-web-based mobile application I have developed and showcases a different set of skills. The areas of focus for improvement in this application included:
 * [zero-index error](https://github.com/paronicholas/WeightTracker/commit/8bf5a266354926aefa59097875824d28850971b5#diff-c28b91864d35b83e735513feafc343959dfeda79c0e4ae15fffd9d01899a1542L53) when creating a new user account row within the accounts table
